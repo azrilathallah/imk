@@ -29,8 +29,8 @@ chatboxForm.addEventListener('submit', function (e) {
 
 textarea.addEventListener('keydown', function (e) {
     if (e.key === 'Enter' && !e.shiftKey) {
-      e.preventDefault(); // Menghentikan newline (baris baru)
-      sendMessage(); // Panggil fungsi untuk mengirim pesan
+      e.preventDefault(); 
+      sendMessage(); 
     }
   });
 
